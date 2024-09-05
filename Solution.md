@@ -22,6 +22,6 @@
   - Merge Sort is not an in-place algorithm when applied to arrays (because it requires extra space for temporary arrays), but when applied to linked lists, it can be done in-place because the merging process only involves changing next pointers
 
 3. Recursion-Friendly:
-   - Since linked lists do not have random access, algorithms that rely on dividing the list (like Merge Sort) are more naturally suited. Merge Sort can recursively divide the list by simply adjusting the next pointers without needing random access, while Quick Sort struggles due to its dependence on partitioning.
+  - Since linked lists do not have random access, algorithms that rely on dividing the list (like Merge Sort) are more naturally suited. Merge Sort can recursively divide the list by simply adjusting the next pointers without needing random access, while Quick Sort struggles due to its dependence on partitioning.
 
 
